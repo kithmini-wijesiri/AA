@@ -1,7 +1,4 @@
 Learn how to use Python and machine learning to build a bioinformatics project for drug discovery
-Part 1 - performing Data Collection and Pre-Processing from the ChEMBL Database
-Part 2 - Exploratory data analysis
-Part 3 - Descriptor calculation
-Part 4 - Model building
-Part 5 - Model comparison
-Part 6 - Model deployment
+In this project I have performed Data Collection and Pre-Processing from the ChEMBL Database, querying the database to find information related to the coronavirus within the specified targets, an exploratory data analysis, descriptor calculation, model building, model comparison and model deployment. 
+
+We will be collecting bioactivvity data from the ChemBL database, data will be pre-processed dropping the missing data and duplicate data, and the data will be labeled according to their bioactivity thresholds. Then a data analysis will be performed where I clean the dataset to verify the SMILES notation are clean and then I will calculate the descriptors. Then a random forest model will be implemented to perform prediction on quantitative data , and finally deploying the model by converting it into a web app . 
